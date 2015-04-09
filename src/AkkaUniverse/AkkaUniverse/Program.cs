@@ -28,7 +28,7 @@ namespace AkkaUniverse
 
 	public class HelloWorldActor : TypedActor, IHandle<SayHelloWorldMessage>
 	{
-		private InternalActorRef HelloUniverseActorRef;
+		private ActorRef HelloUniverseActorRef;
 
 		public HelloWorldActor()
 		{
